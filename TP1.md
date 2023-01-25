@@ -428,5 +428,3 @@ Devrait retourner :
 > Note : `Console.WriteLine()` écrit dans la console, puis fait un retour à la ligne. `Console.Write()` écrit dans la console sans retourner à la ligne.
 
 **Q6 : Copiez le code des classes que vous ferez dans la feuille de réponse**
-
-> Pouvez-vous refaire l'exercice, mais à la place des `for` ou `foreach`, utiliser Linq ?
