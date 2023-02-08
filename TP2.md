@@ -318,7 +318,7 @@ public Pokemon? UpdatePokemon(int pokemonId, UpdatePokemonDto updatePokemonDto)
 
 ✍️ Ecrivez la méthode Update dans PokemonsSources, de même que la classe UpdatePokemonDto
 
-✍️ De la même manière que la méthode GET by id, pouvez-vous modifier la méthode pour que le controller renvoie Not Found si jamais l'Id entré est invalide ?
+✍️ De la même manière que la méthode GET by id, pouvez-vous modifier la méthode pour que le controller renvoie le bon status code si jamais l'Id entré est invalide ?
 
 ---
 
