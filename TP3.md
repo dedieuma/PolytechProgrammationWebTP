@@ -44,7 +44,7 @@ builder.Services.AddDbContext<PokemonContext>(options => options.UseSqlite("Data
 var app = builder.Build(); // existant
 ````
 
-Faites un `Ctrl+;` (par défaut) sur le `AddDbContext()` pour ajouter un `using` nécessaire.
+Faites un `Ctrl+;` (par défaut) sur le `AddDbContext()` pour ajouter un `using` nécessaire : `using Microsoft.EntityFrameworkCore;`
 
 `PokemonContext` ne compile pas, nous allons s'en occuper.
 
