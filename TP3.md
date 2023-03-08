@@ -32,7 +32,9 @@ Installer ensuite le package `Sqlite`, un léger fournisseur de base de données
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 ```
 
-Dans le `Program.cs`, enregistrer un contexte de base de données. Ajoutez la ligne 
+Dans le `Program.cs`, enregistrer un contexte de base de données. 
+
+Ajoutez la ligne 
 
 ````csharp
 builder.Services.AddSwaggerGen(); // existant
@@ -41,6 +43,8 @@ builder.Services.AddDbContext<PokemonContext>(options => options.UseSqlite("Data
 
 var app = builder.Build(); // existant
 ````
+
+Faites un `Ctrl+;` (par défaut) sur le `AddDbContext()` pour ajouter un `using` nécessaire.
 
 `PokemonContext` ne compile pas, nous allons s'en occuper.
 
