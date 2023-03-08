@@ -281,7 +281,7 @@ public Pokemon Insert(CreatePokemonDto dto)
         Type = dto.Type
     };
 
-    var query = "INSERT INTO Pokemons (Id, Description, Name, PictureUrl, Type) VALUES ('"+pokemon.Id+"', '"+pokemon.Description+"', '"+pokemon.Name+"', '"+pokemon.PictureUrl+"', '"+pokemon.PictureUrl+"')";
+    var query = "INSERT INTO Pokemons (Id, Description, Name, PictureUrl, Type) VALUES ('"+pokemon.Id+"', '"+pokemon.Description+"', '"+pokemon.Name+"', '"+pokemon.PictureUrl+"', '"+pokemon.Type+"')";
 
     this._dbContext.Pokemons
         .FromSqlRaw(query)
