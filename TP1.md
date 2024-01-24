@@ -279,11 +279,9 @@ Placez votre terminal dans un nouveau dossier, et effectuez la commande
 
 Cela crée un certain nombre de fichiers, suivant le template du type webapi.
 
-Les fichiers les plus intéressants sont :
+Le fichier le plus intéressant est :
 
-- `Program.cs`, équivalent de la méthode main
-- `WeatherForecast.cs`, classe générée, qui contient les informations définissant une météo à une date => On appelle cela un `Model`.
-- `Controllers/WeatherForecastController.cs` : classe particulière permettant d'exposer des endpoints HTTP API Rest.
+- `Program.cs`, équivalent de la méthode main. Il contient un endpoint, et un model `WeatherForecast`
 
 Faites un `dotnet run`
 
