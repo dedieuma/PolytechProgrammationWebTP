@@ -283,6 +283,16 @@ Le fichier le plus intéressant est :
 
 - `Program.cs`, équivalent de la méthode main. Il contient un endpoint, et un model `WeatherForecast`
 
+❗ Attention, si vous avez une version plus ancienne que .NET 8, vous aurez une structure de fichier différente : 
+
+- `Program.cs`, équivalent de la méthode main
+- `WeatherForecast.cs`, classe générée, qui contient les informations définissant une météo à une date => On appelle cela un `Model`.
+- `Controllers/WeatherForecastController.cs` : classe particulière permettant d'exposer des endpoints HTTP API Rest.
+
+Avec la version .NET 8, les mainteneurs du projet .NET ont rassemblé les 3 fichiers sous le `Program.cs`.
+Nous nous baserons à partir du TP 2 sur la version pré-.NET8. Les indications pour repasser sur l'ancienne version seront donnés dans le sujet du TP 2.
+
+
 Faites un `dotnet run`
 
 Vous devriez avoir une stack du type
