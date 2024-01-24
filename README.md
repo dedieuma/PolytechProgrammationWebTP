@@ -8,3 +8,7 @@ Il servira de base pour les futurs TP de Front-End, dans la 2e partie du cours d
 **Pour les TP 1 et 2** : des questions sont disposées dans la fiche. Essayez de répondre aux questions durant le TP.
 
 **Pour le TP 3** : Le code source sera à envoyer.
+
+# Source des slides
+
+https://slides.com/dedieuma/programmation-web
