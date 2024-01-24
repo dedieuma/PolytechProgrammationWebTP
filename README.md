@@ -12,3 +12,5 @@ Il servira de base pour les futurs TP de Front-End, dans la 2e partie du cours d
 # Source des slides
 
 https://slides.com/dedieuma/programmation-web
+
+NB : utilisez les touches fléchées pour vous déplacer !
