@@ -27,6 +27,11 @@ Installer le package `EntityFrameworkCore` à l'aide de la commande suivante :
 ````
 dotnet add package Microsoft.EntityFrameworkCore
 ````
+⚠️ Attention, si vous avez une version antérieure à la dernière version majeure de .NET, il vous faut préciser la version (et ce sur toutes les commandes suivantes). Si vous avez .NET 7, il vous faut faire
+````
+dotnet add package Microsoft.EntityFrameworkCore -v 7.0.16
+````
+
 Installer ensuite le package `Sqlite`, un léger fournisseur de base de données.
 ```
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
